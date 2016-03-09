@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Booking Request Form</title>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Sahitya:700|Droid+Serif|Satisfy|Molengo' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body class="booking-request">
+      
+    <header class="header"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2">
+                    <h1 class="brand-font">H</h1>
+                </div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+
+        <nav class="navbar" role="navigation" data-spy="affix" data-offset-top="126">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand" href="index.html">Hazelbank Hotel</span>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bedrooms.html">Rooms</a></li>
+                        <li><a href="room-rates.html"><span class="visible-lg-inline">Room </span>Rates</a></li>
+                        <li class="active"><a href="booking-request.html">Booking <span class="visible-lg-inline">form</span></a></li>
+                        <li><a href="golf-packages.html">Golf</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                        <li class="social">
+                            <a href="">
+                                <i class="fa fa-twitter"></i> 
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="">
+                                <i class="fa fa-facebook"></i> 
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <div class="container">
+        <ul class="contact-details list-unstyled list-inline">
+            <li><i class="fa fa-fw fa-map-signs"></i> 28 The Scores, St. Andrews, Fife, Scotland, KY16 9AS</li>
+            <li class="hidden-sm"><i class="fa fa-fw fa-mobile"></i> 01334 472 466 (UK)</li>
+            <li><i class="fa fa-fw fa-globe"></i> +44 (0) 1334 472 466</li>
+            <li><i class="fa fa-fw fa-inbox"></i> <a href="mailto:michael@hazelbank.com">michael@hazelbank.com</a></li>
+        </ul>
+        
+        <div class="jumbotron">
+            <div class="container"></div>
+        </div>
+        
+        <main role="main">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="page-header">
+                        <h1>Booking Request</h1>
+                    </div>
+                    <p class="lead">All rooms are non-smoking and include a full cooked breakfast. Filling out this form does not guarantee your reservation, this is a booking request only.</p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="sr-only">Full Name:</label>
+                            <input type="text" class="form-control input-lg" id="name" placeholder="Full Name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address" class="sr-only">Address:</label>
+                            <input type="text" class="form-control input-lg" id="address" placeholder="Address">
+                        </div>
+                        
+                        <div class="form-group" class="sr-only">
+                            <label for="town" class="sr-only">Town/City:</label>
+                            <input type="text" class="form-control input-lg" id="town" placeholder="Town/City">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="postcode" class="sr-only">Postcode:</label>
+                            <input type="text" class="form-control input-lg" id="postcode" placeholder="Postcode">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="country" class="sr-only">Country:</label>
+                            <input type="text" class="form-control input-lg" id="country" placeholder="Country">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Email:</label>
+                            <input type="email" class="form-control input-lg" id="email" placeholder="Email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telephone" class="sr-only">Telephone:</label>
+                            <input type="tel" class="form-control input-lg" id="telephone" placeholder="Telephone">
+                        </div>
+                        
+                        <div class="room-booking">
+                            <header class="booking-header clearfix">
+                                <h3>Bedroom 1</h3>
+                                <button class="btn btn-default btn-add-room">
+                                    <span class="sr-only"></span>
+                                    <i class="fa fa-plus"></i> Add Room
+                                </button>
+                            </header>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="arrival-date">Arrival Date:</label>
+                                        <div class="form-inline date-picker">
+                                            <input type="number" class="form-control input-lg day" id="day" placeholder="Day">
+                                            <select id="month" name="dob_month" class="form-control input-lg month">
+                                                <option value="" selected>Month</option>
+                                                <option value="01">January</option>
+                                                <option value="02">February</option>
+                                                <option value="03">March</option>
+                                                <option value="04">April</option>
+                                                <option value="05">May</option>
+                                                <option value="06">June</option>
+                                                <option value="07">July</option>
+                                                <option value="08">August</option>
+                                                <option value="09">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                            <input type="number" min="2016" max="2017" class="form-control input-lg year" id="year" placeholder="Year">
+                                            <input name="arrival-date" type="hidden">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="arrival-date">Departure Date:</label>
+                                        <div class="form-inline date-picker">
+                                            <input type="number" class="form-control input-lg day" id="day" placeholder="Day">
+                                            <select id="month" name="dob_month" class="form-control input-lg month">
+                                                <option value="" selected>Month</option>
+                                                <option value="01">January</option>
+                                                <option value="02">February</option>
+                                                <option value="03">March</option>
+                                                <option value="04">April</option>
+                                                <option value="05">May</option>
+                                                <option value="06">June</option>
+                                                <option value="07">July</option>
+                                                <option value="08">August</option>
+                                                <option value="09">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                            <input type="number" min="2016" max="2017" class="form-control input-lg year" id="year" placeholder="Year">
+                                            <input name="arrival-date" type="hidden">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <label for="room-type">Type of Room:</label>
+                                        <select class="form-control input-lg">
+                                            <option>Twin</option>
+                                            <option>Single</option>
+                                            <option>Double</option>
+                                            <option>Family</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="duration">Duration:</label>
+                                        <select class="form-control input-lg">
+                                            <option>1 Night</option>
+                                            <option>2 Nights</option>
+                                            <option>3 Nights</option>
+                                            <option>4 Nights</option>
+                                            <option>5+ Nights</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="special-requirements">Special Requirements:</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <p>Filling out this form does not guarantee your reservation, this is a booking request only.</p>
+                            <button class="btn btn-lg btn-block btn-primary">Submit your booking request</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <div class="side-bar">
+                        <div class="title">
+                            <h3>Special Offers</h3>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="content">
+                            <p>We have 28 years experience of advising our guests on reserving Tee Times both in St. Andrews and the surrounding area. Please call or email us for help or advice. We would be happy to offer information and tips on securing tee times and offer suitable itineraries for golf breaks both Winter and Summer.</p>
+                            <a href="" class="btn btn-default" role="button">View details</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <address>
+              <strong>Hazelbank Hotel</strong><br>
+              28 The Scores, St. Andrews<br>
+              Fife, Scotland, KY16 9AS<br>
+              <abbr title="Phone">P:</abbr> +44 (0) 1334 472 466
+            </address>
+
+            <address>
+              <strong>Michael Henretty</strong><br>
+              <a href="mailto:michael@hazelbank.com">michael@hazelbank.com</a>
+            </address>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--<script src="js/scripts.js"></script>-->
+
+</body>
+</html>
